@@ -1,0 +1,39 @@
+@media(max-width: 860px){
+    .cabecalho{
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-bottom: 25px;
+    }
+
+    h1{
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 675px){
+    .cabecalho{
+        display: block;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-bottom: 35px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    .menu{
+        display: block;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .menu li{
+        margin-bottom: 30px;
+    }
+}
